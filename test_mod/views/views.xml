@@ -56,5 +56,18 @@
     <menuitem name="Server to list" id="test_mod" parent="test_mod.menu_2"
               action="test_mod.action_server"/>
 -->
+
+  <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="test_mod.list">
+      <field name="name">testMod list</field>
+      <field name="model">sale.order</field>
+      <field name="inherit_id" ref="sale.view_order_form"/>
+      <field name="arch" type="xml">
+        <field name="partner_id" position = "after">
+          <field name="customer_ref"/>
+        </field>
+      </field>
+    </record>
   </data>
 </odoo>

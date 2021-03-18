@@ -16,3 +16,7 @@
 #     def _value_pc(self):
 #         for record in self:
 #             record.value2 = float(record.value) / 100
+class test_mod(models.Model):
+    _inherit = "sale.order"
+
+    customer_ref = fields.Char()
