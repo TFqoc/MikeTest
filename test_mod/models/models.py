@@ -20,3 +20,8 @@ class test_mod(models.Model):
     _inherit = "sale.order"
 
     customer_ref = fields.Char()
+
+class test_mod(models.Model):
+    _inherit = "res.partner"
+
+    customer_debt = fields.Char()
