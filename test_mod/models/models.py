@@ -21,7 +21,7 @@ class test_mod(models.Model):
 
     customer_ref = fields.Char()
 
-# class test_mod(models.Model):
-#     _inherit = "res.partner"
+class test_mod(models.Model):
+    _inherit = "res.partner"
 
-#     customer_debt = fields.Char()
+    customer_debt = fields.Char()
