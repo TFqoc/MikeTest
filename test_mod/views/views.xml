@@ -70,15 +70,15 @@
       </field>
     </record>
 
-    <!-- <record model="ir.ui.view" id="test_mod.list">
+    <record model="ir.ui.view" id="test_mod.list">
       <field name="name">testMod field</field>
       <field name="model">res.partner</field>
-      <field name="inherit_id" ref="sale.view_order_form"/>
+      <field name="inherit_id" ref="base.view_partner_form"/>
       <field name="arch" type="xml">
         <field name="vat" position = "after">
           <field name="customer_debt"/>
         </field>
       </field>
-    </record> -->
+    </record>
   </data>
 </odoo>
