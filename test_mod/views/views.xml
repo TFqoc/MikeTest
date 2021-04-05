@@ -71,10 +71,9 @@
         </field>
         <field name="invoice_status" position="after">
           <field name="customer_tier"/>
+            <field name="customer_quote"/>
         </field>
-        <field name="CustomerTier_list" position="after">
-          <field name="customer_quote"/>
-        </field>
+
       
       <!-- Creates the GUI for the Customer Tier List.
       <field name="name">CustomerTier_list</field>
