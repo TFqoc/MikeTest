@@ -102,7 +102,7 @@
       <field name="arch" type="xml">
         <field name="vat" position = "after">
           <field name="customer_debt"/>
-        </field> -->
+        </field> 
       </field> 
     </record>
     <!--  -->
