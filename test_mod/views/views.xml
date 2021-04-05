@@ -59,7 +59,7 @@
 
   <!-- explicit list view definition -->
 
-    <record model="ir.ui.view" id="test_mod.list">
+    <record model="ir.ui.view" id="tear">
       <field name="name">TestSale_list</field>
       <field name="model">sale.order</field>
       <field name="inherit_id" ref="sale.view_order_form"/>
@@ -74,7 +74,7 @@
       </field>
     </record>
 <!-- change to appease the internet gods of Odoo to actually be able to push this update -->
-    <record model="ir.ui.view" id="test_mod.list">
+    <record model="ir.ui.view" id="testtwo">
       <field name="name">testDebt_field</field>
       <field name="model">res.partner</field>
       <field name="inherit_id" ref="base.view_partner_form"/>
