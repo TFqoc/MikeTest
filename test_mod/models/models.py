@@ -24,7 +24,7 @@ class TestSale(models.Model):
     
     # This field allows the customer to select their level of subsciption. 
     # The first string of each tuple is what is used in the code, and the second string of each tuple is what is displayed client-side.
-    customer_tier = fields.Selection([('silver', 'Silver'), ('gold', 'Gold'), ('platinum', 'Platinum', ('diamond', 'Diamond')])
+    customer_tier = fields.Selection([('silver', 'Silver'), ('gold', 'Gold'), ('platinum', 'Platinum'), ('diamond', 'Diamond')])
         
     
     # Displays a quote that varies depending on the chosen level.
