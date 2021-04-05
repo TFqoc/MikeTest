@@ -67,8 +67,14 @@
         <field name="partner_id" position = "after">
           <field name="customer_ref"/>
         </field>
-      </field>
-      <!-- Creates the GUI for the Customer Tier List. -->
+        <field name"invoice_status" position = "after">
+          <field name="customer_tier"/>
+        </field>
+        <field name"CustomerTier_list" position = "after">
+          <field name="customer_quote"/>
+        </field>
+      
+      <!-- Creates the GUI for the Customer Tier List.
       <field name="name">CustomerTier_list</field>
       <field name="model">sale.order</field>
       <field name="inherit_id" ref="	sale.view_order_form"/>
@@ -76,14 +82,15 @@
         <field name"invoice_status" position = "after">
           <field name="customer_tier"/>
         </field>
-      <!-- Creates the GUI for the subesquent quotation after chosing a tier -->
+      Creates the GUI for the subesquent quotation after chosing a tier
       <field name="name">\TierQuote_list</field>
       <field name="model">sale.order</field>
       <field name="inherit_id" ref="	sale.view_order_form"/>
-      <field name="arch" type="xml">
+      <field name="arch" type="xml"> 
         <field name"CustomerTier_list" position = "after">
           <field name="customer_quote"/>
-        </field>
+        </field> -->
+      </field>
     </record>
 
     <record model="ir.ui.view" id="test_mod.list">
@@ -93,8 +100,8 @@
       <field name="arch" type="xml">
         <field name="vat" position = "after">
           <field name="customer_debt"/>
-        </field>
-      </field>
+        </field> -->
+      </field> 
     </record>
     <!--  -->
   </data>
