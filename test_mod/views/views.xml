@@ -69,7 +69,7 @@
         </field>
         <field name="invoice_status" position="after">
           <!-- <field name="customer_tier"/> -->
-            <field name="customer_tier_quote"/>
+            <!-- <field name="customer_tier_quote"/> -->
         </field>
       </field>
     </record>
