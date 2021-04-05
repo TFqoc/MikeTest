@@ -61,16 +61,18 @@
 
     <record model="ir.ui.view" id="test_mod.list">
       <field name="name">TestSale_list</field>
-      <field name="model">sale.order.form</field>
+      <field name="model">sale.order</field>
       <field name="inherit_id" ref="sale.view_order_form"/>
       <field name="arch" type="xml">
-        <field name="partner_id" position = "after">
+        <field name="partner_id" position="after">
           <field name="customer_ref"/>
+
+
         </field>
-        <field name"invoice_status" position = "after">
+        <field name="invoice_status" position="after">
           <field name="customer_tier"/>
         </field>
-        <field name"CustomerTier_list" position = "after">
+        <field name="CustomerTier_list" position="after">
           <field name="customer_quote"/>
         </field>
       
