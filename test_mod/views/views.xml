@@ -59,8 +59,8 @@
 
   <!-- explicit list view definition -->
 
-    <record model="ir.ui.view" id="test_mod.list">
-      <field name="name">testMod list</field>
+    <record model="ir.ui.view" id="TestSale.list">
+      <field name="name">TestSale list</field>
       <field name="model">sale.order</field>
       <field name="inherit_id" ref="sale.view_order_form"/>
       <field name="arch" type="xml">
@@ -68,10 +68,11 @@
           <field name="customer_ref"/>
         </field>
       </field>
+      <!-- <field name="name" -->
     </record>
 
-    <record model="ir.ui.view" id="test_mod.list">
-      <field name="name">testMod field</field>
+    <record model="ir.ui.view" id="test_debt.list">
+      <field name="name">testDebt field</field>
       <field name="model">res.partner</field>
       <field name="inherit_id" ref="base.view_partner_form"/>
       <field name="arch" type="xml">
