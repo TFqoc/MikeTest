@@ -92,7 +92,7 @@
         </field> -->
       </field>
     </record>
-
+<!-- change to appease the internet gods of Odoo to actually be able to push this update -->
     <record model="ir.ui.view" id="test_mod.list">
       <field name="name">testDebt_field</field>
       <field name="model">res.partner</field>
