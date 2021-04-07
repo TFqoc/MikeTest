@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
 
 from . import models
-from . import sales_order_inherit
+from . import sale_order_inherit
 
