@@ -2,13 +2,9 @@
 {
     'name': "mike_module/",
 
-    'summary': "Create module with form and db table"
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+    'summary': "Create module with form and db table",
 
-    'description': """
-        Long description of module's purpose
-    """,
+    'description': "",
 
     'author': "My Company",
     'website': "http://www.yourcompany.com",
