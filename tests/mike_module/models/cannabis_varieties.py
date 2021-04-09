@@ -12,5 +12,5 @@ class PlantVarieties(models.Model):
         ('sativa', 'Sativa'),
         ('ruderalis', 'Ruderalis'),
     ], required=True, default='indica')
-    thc = fields.Char(string='THC', required=True)
+    thc = fields.Float(string='THC', required=True)
     note = fields.Text(string='Description')
