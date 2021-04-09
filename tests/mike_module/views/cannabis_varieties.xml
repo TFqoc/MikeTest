@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<menuitem id="mike_menu_root"
+            name="Mike's Menu"
+            sequence="100"/>
+</odoo>
