@@ -20,6 +20,6 @@
 	<menuitem id="cannabis_varieties_submenu"
             name="Cannabis Varieties"
             parent="mike_menu_root"
-	    sction="action_cannabis_varieties"
+	    action="action_cannabis_varieties"
             sequence="1"/>
 </odoo>
