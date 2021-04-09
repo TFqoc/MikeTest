@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+	<record id="action_cannabis_varieties" model="ir.actions.act_window">
+            <field name="name">Cannabis Orders</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">plant.varieties</field>
+            <field name="view_mode">tree,kanban,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    View the different varities of cannabis flower and
+                </p><p>
+                    understand the THC content.<br/> There are generally 3 genus types of flower.
+                </p>
+            </field>
+   i    </record>
+
 	<menuitem id="mike_menu_root"
             name="Mike's Menu"
             sequence="100"/>
