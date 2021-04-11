@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from odoo import api, fields, models, _, tools
 
-
 class PlantVarieties(models.Model):
     _name = "plant.varieties"
     _description = "Types of cannabis plants"
