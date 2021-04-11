@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+# This is a test comment
 	<record id="action_cannabis_varieties" model="ir.actions.act_window">
             <field name="name">Cannabis Orders</field>
             <field name="type">ir.actions.act_window</field>
